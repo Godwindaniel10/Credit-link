@@ -33,7 +33,14 @@ export default function Home() {
                 </p>
               </div>
   </div>
-  <div className="box-2"></div>
+  <div className="box-2">
+    <div className="header">
+      <h1>How Much You Need</h1>
+    </div>
+    <div className="body">
+      <a href="#">Sign up</a>
+    </div>
+  </div>
           </div>
       </div>
     </>
