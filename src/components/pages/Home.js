@@ -41,6 +41,28 @@ export default function Home() {
     </div>
   </div>
           </div>
+
+          <div className="offer-container">
+            <div className="header-text">
+              <p className="p1">What We're Offering <span></span></p><br />
+              <h1>Credit~Link Investment Management Ltd</h1>
+              <p className="p2">We offer quick loans at flexible repayment terms and help<br /> you earn on every dime you save or invest for long and short terms.</p>
+            </div>
+            <div className="cards-container">
+              <div className="card1">
+                <div className="image"></div>
+                <div className="image-text"></div>
+              </div>
+              <div className="card2">
+                <div className="image"></div>
+                <div className="image-text"></div>
+              </div>
+              <div className="card3">
+                <div className="image"></div>
+                <div className="image-text"></div>
+              </div>
+            </div>
+          </div>
       </div>
     </>
   );
