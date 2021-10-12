@@ -26,14 +26,14 @@ export default function Home() {
               </div>
               </div>
               <div className="text-container">
- <p className="first-p">Do you need a quick loan?</p><br />
+              <p className="first-p">Do you need a quick loan?</p><br />
                 <h1>Credit~Link investment can help</h1><br />
                 <p className="second-p">You dont have to get stranded when you suddenly run out of cash.
                 Madas got you covered with fast emergency loans to meet your most pressing needs.
                 </p>
               </div>
-            </div>
-            <div className="box-2"></div>
+  </div>
+  <div className="box-2"></div>
           </div>
       </div>
     </>
