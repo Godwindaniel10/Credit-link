@@ -51,15 +51,24 @@ export default function Home() {
             <div className="cards-container">
               <div className="card1">
                 <div className="image"></div>
-                <div className="image-text"></div>
+                <div className="image-text">
+                  <p className="cl-loan-header">Credit~Link Loans</p>
+                  <p className="cl-loan-text">Credit Link Finance manages your loan needs to provide you with quick loans, attractive interest rates and flexible repayments plans.</p>
+                </div>
               </div>
               <div className="card2">
                 <div className="image"></div>
-                <div className="image-text"></div>
+                <div className="image-text">
+                  <p className="cl-savings-header">Credit~Link Savings</p>
+                  <p className="cl-savings-text">We can help you build a saving culture with our simple and easy-to-understand savings plans and gives you interest on each deposit.</p>
+                </div>
               </div>
               <div className="card3">
                 <div className="image"></div>
-                <div className="image-text"></div>
+                <div className="image-text">
+                  <p className="cl-investment-header">Credit~Link Investment</p>
+                  <p className="cl-investment-text">Our investment plans allows you to select comfortable tenure and generate high return on your investment. More than bank offers.</p>
+                </div>
               </div>
             </div>
           </div>
