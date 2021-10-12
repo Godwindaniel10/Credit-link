@@ -6,10 +6,9 @@ export default function Home() {
     <>
       <div className="header-container">
             <div className="box1">
-                <p className="first-p">Do you need a quick loan?</p><br />
-                <h1>Credit~Link investment can help</h1><br />
-                <p className="second-p">You dont have to get stranded when you suddenly run out of cash.
-                Madas got you covered with fast emergency loans to meet your most pressing needs.
+                <p className="first-p">Building a saving culture</p><br />
+                <h1>can help you secure your rainy day</h1><br />
+                <p className="second-p">Weather it's periodic saving's or long tenure investment, Credit~Link finance provides a simplified approach to earning more through your saving's.
                 </p>
             </div>
             <div className="box2"></div>
