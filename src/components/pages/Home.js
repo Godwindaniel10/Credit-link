@@ -121,8 +121,9 @@ export default function Home() {
 
                   <div className="rightbox">
                     <div className="text">
-                    <h1>Why Choose Credit Link Finance</h1>
-                    <p>Our mission is to make processing of financial service seamless and to help our clients meets their financial needs faster. This is why we strive to offer first class financial services to our clients.</p>
+                    <div className="container1"></div>
+                    <div className="container2"></div>
+                    <div className="container3"></div>
                     </div>
                   </div>
                   <div data-aos="fade-up" class="leftbox">
@@ -135,6 +136,7 @@ export default function Home() {
                   </div>
             </div>
           </div>
+          <div className="footer"></div>
       </div>
     </>
   );
