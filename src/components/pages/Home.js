@@ -117,7 +117,23 @@ export default function Home() {
                     </div>
                   </div>
             </div>
-            <div className="wcu2"></div>
+            <div className="wcu2">
+
+                  <div className="rightbox">
+                    <div className="text">
+                    <h1>Why Choose Credit Link Finance</h1>
+                    <p>Our mission is to make processing of financial service seamless and to help our clients meets their financial needs faster. This is why we strive to offer first class financial services to our clients.</p>
+                    </div>
+                  </div>
+                  <div data-aos="fade-up" class="leftbox">
+                        <div className="img1">
+                        <div className="img2"></div>
+                        <div className="img3"></div>
+                        <div className="img4"></div>
+                        <div className="img5"></div>
+                        </div>
+                  </div>
+            </div>
           </div>
       </div>
     </>
