@@ -72,6 +72,34 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="about-container">
+            <div className="about-sec1">
+              <div className="about-intro-1">
+                <p className="intro-p">About Credit~Link Finance</p>
+                <h1>It's All About Loans, Savings & Investments</h1>
+              </div>
+              <div className="about-intro-2">
+              <p>Credit Link Investment Management Limited is a Finance Company duly registered by the Corporate Affairs Commission to carry our financial management services for clients.
+                <br /><br />
+                Credit Link Investment Management Limited is a Finance Company duly registered by the Corporate Affairs Commission to carry our financial management services for clients.
+              </p>
+              </div>
+            </div>
+            <div className="about-sec2">
+              <div className="card1">
+              <img src="https://img.icons8.com/external-ddara-lineal-ddara/64/000000/external-assets-fintech-ddara-lineal-ddara.png" alt="" />
+                <p>Stress-free loans with flexible repayments</p>
+              </div>
+              <div className="card2">
+              <img src="https://img.icons8.com/external-justicon-lineal-justicon/64/000000/external-saving-money-economy-and-currency-justicon-lineal-justicon-4.png" alt="" />
+                <p>Savings plans to build your saving culture & earn</p>
+              </div>
+              <div className="card3">
+              <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-investment-investment-flatart-icons-outline-flatarticons-2.png" alt="" />
+                <p>Investment plans with peace of mind guaranteed</p>
+              </div>
+            </div>
+          </div>
       </div>
     </>
   );
