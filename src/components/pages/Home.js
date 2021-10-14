@@ -153,7 +153,10 @@ export default function Home() {
                   </div>
             </div>
           </div>
-          <div className="footer"></div>
+          <div className="footer">
+            <p className="copyright">Copyright © 2021. Madas Investment Management Ltd.</p>
+            <p className="powered">Powered by <span>LIVEPETAL SYSTEMS LTD</span></p>
+          </div>
       </div>
     </>
   );
