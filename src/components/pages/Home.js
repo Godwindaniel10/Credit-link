@@ -80,8 +80,6 @@ export default function Home() {
               </div>
               <div className="about-intro-2">
               <p>Credit Link Investment Management Limited is a Finance Company duly registered by the Corporate Affairs Commission to carry our financial management services for clients.
-                <br /><br />
-                Credit Link Investment Management Limited is a Finance Company duly registered by the Corporate Affairs Commission to carry our financial management services for clients.
               </p>
               </div>
             </div>
@@ -121,9 +119,28 @@ export default function Home() {
 
                   <div className="rightbox">
                     <div className="text">
-                    <div className="container1"></div>
-                    <div className="container2"></div>
-                    <div className="container3"></div>
+                    <div className="container1">
+
+                       <span className="num1">01</span><br />
+                       <div className="header-text-box">
+                     <p className="header">Reliability & Transparency</p>
+                      <p className="text">Our foundation is built upon the trust reposed on us by our client simply because we make everything clear and transparent.</p>
+                     </div>
+                    </div>
+                    <div className="container2">
+                    <span className="num2">02</span><br />
+                    <div className="header-text-box">
+                     <p className="header">Experienced Leadership</p>
+                      <p className="text">The company is led by directors that have demonstrated time-tested principles of financial success and breakthrough.</p>
+                     </div>
+                    </div>
+                    <div className="container3">
+                    <span className="num3">03</span><br />
+                    <div className="header-text-box">
+                     <p className="header">Operational Efficiency</p>
+                      <p className="text">Our system is completely automated to deliver best user experience for our clients and operators with high efficiency and accuracy.</p>
+                     </div>
+                    </div>
                     </div>
                   </div>
                   <div data-aos="fade-up" class="leftbox">
