@@ -59,6 +59,12 @@ export default function Faq() {
           </div>
         </div>
         <div className="question2">
+          <div className="q2">
+          <h1>Do you still have questions or need more clarification about our loans, savings and investment services?
+            <br/><br/><br/><br/>
+            <a href="#">Contact us</a>
+          </h1>
+          </div>
         </div>
       </div>
       <div className="footer-faq">
