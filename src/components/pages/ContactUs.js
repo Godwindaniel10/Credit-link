@@ -36,7 +36,21 @@ Ojota New Garage, Behind Wema Bank Plc</p>
          </div>
        </div>
        <div className="side2">
-        
+         <div className="form-headers">
+           <h1>Send Us A Message</h1>
+           <p>What ever your enquiry or questions are, you can simply send us a message and we will respond as soon as possible</p>
+         </div>
+         <form autocomplete="off">
+           <input type="text" name="name" id="name" placeholder="Name"/><br /><br />
+           <input type="number" name="phone-number" id="phone-number" placeholder="Phone number"/><br /><br />
+           <input type="email" name="email" id="email" placeholder="Email"/><br /><br />
+           <input type="text" name="message" id="message" class="message" placeholder="Message"/><br /><br /><br /><br />
+           <a href="">Submit Now</a>
+         </form>
+       </div>
+       <div className="footer-contact">
+       <p className="copyright">Copyright © 2021. Madas Investment Management Ltd.</p>
+            <p className="powered">Powered by <span>LIVEPETAL SYSTEMS LTD</span></p>
        </div>
      </div>
     </>

@@ -892,7 +892,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
 }
 .contact-us-container .side1 {
   width: 1200px;
-  height: 1000px;
+  height: 950px;
 }
 .contact-us-container .side1 .img {
   width: 100%;
@@ -913,17 +913,53 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
   height: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  border: 2px solid red;
+  border: 1px solid rgba(153, 153, 153, 0.158);
 }
 .contact-us-container .side2 {
-  border: 2px solid red;
   width: 600px;
   height: 800px;
   margin-left: 50px;
+  padding: 100px 20px 0 20px;
 }
+.contact-us-container .side2 .form-headers {
+  width: 100%;
+  height: auto;
+}
+.contact-us-container .side2 .form-headers p {
+  color: rgb(100, 100, 100);
+  font-size: 16px;
+  margin-top: 1.3rem;
+  line-height: 30px;
+}
+.contact-us-container .side2 form {
+  margin-top: 3rem;
+}
+.contact-us-container .side2 form input {
+  width: 100%;
+  padding: 15px 0;
+  font-size: 16px;
+  border: none;
+  border-bottom: 1px solid rgba(153, 153, 153, 0.377);
+  outline: none;
+}
+.contact-us-container .side2 form .message {
+  padding-bottom: 40px;
+}
+::placeholder {
+  color: rgb(131, 131, 131);
+}
+.contact-us-container .side2 form a {
+  text-decoration: none;
+  padding: 15px 30px;
+  background: #3ea176;
+  color: #fff;
+  font-size: 16.5px;
+  border-radius: 7px;
+}
+
 .contact-us-container .side1 .b1 {
   width: 100%;
-  height: 400px;
+  height: auto;
   padding: 40px;
 }
 .contact-us-container .side1 .b1 .b1-second .headers {
@@ -938,10 +974,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
 }
 .contact-us-container .side1 .b2 {
   width: 100%;
-  height: 400px;
+  height: auto;
   padding: 40px;
-  border-right: 1px solid rgba(153, 153, 153, 0.432);
-  border-left: 1px solid rgba(153, 153, 153, 0.432);
+  border-right: 1px solid rgba(153, 153, 153, 0.158);
+  border-left: 1px solid rgba(153, 153, 153, 0.158);
 }
 .contact-us-container .side1 .b2 .b2-second .headers {
   color: rgba(104, 104, 104, 0.568);
@@ -952,7 +988,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
 }
 .contact-us-container .side1 .b3 {
   width: 100%;
-  height: 400px;
+  height: auto;
   padding: 40px;
 }
 .contact-us-container .side1 .b3 .b3-second .headers {
@@ -1005,7 +1041,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
 }
 
 /* footer */
-.footer-faq {
+.footer-faq{
   background: #000000;
   width: 100%;
   height: 200px;
@@ -1016,13 +1052,35 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
   align-items: center;
   padding: 70px;
 }
-.footer-faq .copyright {
+.footer-faq .copyright{
   color: #fff;
 }
-.footer-faq .powered {
+.footer-faq .powered{
   color: #fff;
 }
-.footer-faq .powered span {
+.footer-faq .powered span  {
+  color: #3ea176;
+}
+
+/* footer */
+.footer-contact{
+  background: #000000;
+  width: 100%;
+  height: 200px;
+  position: absolute;
+  top: 75rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 70px;
+}
+ .footer-contact .copyright {
+  color: #fff;
+}
+.footer-contact .powered {
+  color: #fff;
+}
+.footer-contact .powered span {
   color: #3ea176;
 }
 
