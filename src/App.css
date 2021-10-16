@@ -1019,6 +1019,10 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
   font-size: 16px;
   outline: none;
 }
+.login-container .login-container2  {
+
+  width: 350px;
+}
 .login-container .login-container2 .fpass-sign-in-container {
   display: flex;
   justify-content: space-between;
