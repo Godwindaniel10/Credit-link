@@ -85,15 +85,15 @@ export default function Home() {
             </div>
             <div className="about-sec2">
               <div className="card1">
-              <img src="https://img.icons8.com/external-ddara-lineal-ddara/64/000000/external-assets-fintech-ddara-lineal-ddara.png" alt="" />
+              <img src="https://img.icons8.com/external-ddara-lineal-ddara/64/3ea176/external-assets-fintech-ddara-lineal-ddara.png" alt="" />
                 <p>Stress-free loans with flexible repayments</p>
               </div>
               <div className="card2">
-              <img src="https://img.icons8.com/external-justicon-lineal-justicon/64/000000/external-saving-money-economy-and-currency-justicon-lineal-justicon-4.png" alt="" />
+              <img src="https://img.icons8.com/external-justicon-lineal-justicon/64/3ea176/external-saving-money-economy-and-currency-justicon-lineal-justicon-4.png" alt="" />
                 <p>Savings plans to build your saving culture & earn</p>
               </div>
               <div className="card3">
-              <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/000000/external-investment-investment-flatart-icons-outline-flatarticons-2.png" alt="" />
+              <img src="https://img.icons8.com/external-flatart-icons-outline-flatarticons/64/3ea176/external-investment-investment-flatart-icons-outline-flatarticons-2.png" alt="" />
                 <p>Investment plans with peace of mind guaranteed</p>
               </div>
             </div>
