@@ -904,7 +904,7 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
     rgba(0, 0, 0, 0.45)
   ),
   /* bottom, image */
-  url("https://images.pexels.com/photos/789822/pexels-photo-789822.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  url(./images/woman-smiling-call.jpeg);
   background-position: center;
   background-size: cover;
 }
