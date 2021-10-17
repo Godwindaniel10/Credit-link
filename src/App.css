@@ -2145,10 +2145,12 @@ select{
   margin-top: 1.5rem;
 }
 .fpassword-submit-container {
-  display: grid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 .fpassword-submit-container .sign-up-submit {
-  padding: 15px 50px;
+  padding: 15px 80px;
   text-align: center;
 }
 .fpassword-submit-container .ahaa {
