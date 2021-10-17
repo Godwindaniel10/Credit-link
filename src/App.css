@@ -2044,6 +2044,23 @@ select{
 
 
 
+
+
+
+/* footer */
+  .footer {
+    top: 330rem;
+    display: grid;
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+  }
+  .footer .copyright {
+    font-size: 15px;
+  }
+  .footer .powered {
+    font-size: 14px;
+  }
   
 
 }
