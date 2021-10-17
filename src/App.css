@@ -898,7 +898,6 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
   width: 100%;
   height: 600px;
   background: 
-  /* top, transparent red, faked with gradient */ 
   linear-gradient(
     rgba(0, 0, 0, 0.45), 
     rgba(0, 0, 0, 0.45)
@@ -1616,17 +1615,51 @@ select{
   padding: 12px 30px;
   font-size: 16px;
 }
-
-
-
-
-
-
 .faq-container .faq-main-container .question2 {
   margin-left: 0;
 }
  
 
+
+
+/* contact us mobile */
+.contact-us-container {
+  display: grid;
+  padding: 0;
+}
+.contact-us-container .side1 {
+  width: 100%;
+  height: 700px;
+}
+.contact-us-container .side1 .img {
+  height: 300px;
+}
+.contact-us-container .side1 .contacts {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.contact-us-container .side2 {
+  width: 100%;
+  margin-left: 0;
+  margin-top: 30rem;
+  padding: 0 30px;
+}
+.contact-us-container .side2 form a {
+  padding: 12px 30px;
+  font-size: 16px;
+}
+.contact-us-container .side1 .b1,
+.contact-us-container .side1 .b3
+ {
+  padding: 30px;
+}
+.contact-us-container .side1 .b2 {
+  border: none;
+  padding: 30px;
+}
+.b1-second , .b2-second, .b3-second{
+  margin-top: 1rem;
+}
 
 
 
@@ -1666,6 +1699,21 @@ select{
 .footer-faq .powered{
   font-size: 14px;
 }
+
+
+  /* footer */
+  .footer-contact{
+    top: 130rem;
+    display: grid;
+    padding: 30px;
+    text-align: center;
+  }
+  .footer-contact .copyright{
+    font-size: 15px;
+  }
+  .footer-contact .powered{
+    font-size: 14px;
+  }
 }
 
 
