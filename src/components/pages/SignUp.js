@@ -112,7 +112,7 @@ export default function SignUp() {
                   <option value="sb">Select branch...</option>
                   <option value="ojota">Ojota</option>
                   <option value="ikorodu">Ikorodu</option>
-                  
+              
                </select>
             </div>
 

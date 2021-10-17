@@ -1664,13 +1664,38 @@ select{
 
 
 
-
 /* login mobibile */
 .login-container {
   padding: 0 30px;
 }
 
 
+
+/* sign up */
+
+.sign-up-container .form-container {
+  width: 100%;
+}
+.sign-up-container .form-container form {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.sign-up-container .form-container .form1 .zone2-of-form1,
+.sign-up-container .form-container .form2 .zone2-of-form1 ,
+.sign-up-container .form-container .form3 .zone2-of-form1  {
+  margin-left: 0;
+  margin-top: 1.5rem;
+}
+.fpassword-submit-container {
+  display: grid;
+}
+.fpassword-submit-container .sign-up-submit {
+  padding: 15px 50px;
+  text-align: center;
+}
+.fpassword-submit-container .ahaa {
+  margin-top: 2rem;
+}
 
 
 
@@ -1720,6 +1745,22 @@ select{
     font-size: 15px;
   }
   .footer-contact .powered{
+    font-size: 14px;
+  }
+
+
+
+  /* footer */
+  .footer-sign-up{
+    top: 140rem;
+    display: grid;
+    padding: 30px;
+    text-align: center;
+  }
+  .footer-sign-up .copyright{
+    font-size: 15px;
+  }
+  .footer-sign-up .powered{
     font-size: 14px;
   }
 }
