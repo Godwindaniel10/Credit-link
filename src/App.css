@@ -828,8 +828,9 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
 .faq-container .faq-main-container .question1 .text6 .head-text,
 .faq-container .faq-main-container .question1 .text7 .head-text {
   font-size: 18px;
+  color: #25664a;
 }
-.faq-container .faq-main-container .question1 .text1 .body-text,
+
 .faq-container .faq-main-container .question1 .text2 .body-text,
 .faq-container .faq-main-container .question1 .text3 .body-text,
 .faq-container .faq-main-container .question1 .text4 .body-text,
@@ -837,11 +838,18 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
 .faq-container .faq-main-container .question1 .text6 .body-text,
 .faq-container .faq-main-container .question1 .text7 .body-text {
   font-size: 17px;
-  color: rgb(85, 85, 85);
-  margin-top: 1rem;
+  color: rgb(117, 117, 117);
   line-height: 30px;
-  display: none;
+  margin-top: 2rem;
 }
+.faq-container .faq-main-container .question1 .text1 .body-text-1 {
+  margin-top: 2rem;
+  font-size: 17px;
+  color: rgb(85, 85, 85);
+  line-height: 30px;
+}
+
+
 .faq-container .faq-main-container .question1 .text2 {
   border-bottom: 1px solid rgba(153, 153, 153, 0.219);
   width: 100%;
@@ -877,8 +885,33 @@ background-image: url("data:image/svg+xml,%3Csvg width='20' height='20' viewBox=
   height: auto;
   padding: 30px 0;
 }
-
-
+.pkg-container {
+  margin-top: 3rem;
+  display: none;
+}
+.pkg-container .pkg1 ,
+.pkg-container .pkg2,
+.pkg-container .pkg3{
+  margin-top: 2rem;
+}
+.pkg-container h4 {
+  color: #3ea176;
+  margin-bottom: 2rem;
+}
+.pkg-container .pkg1 li,
+.pkg-container .pkg2 li,
+.pkg-container .pkg3 li
+ {
+  list-style: none;
+  padding: 10px 0;
+  color: rgb(73, 73, 73);
+}
+.pkg-container .pkg1 ul,
+.pkg-container .pkg2 ul,
+.pkg-container .pkg3 ul
+ {
+  margin-top: 1.5rem;
+}
 
 
 /* contact us section */
@@ -1250,7 +1283,7 @@ select{
   width: 100%;
   height: 200px;
   position: absolute;
-  top: 85rem;
+  top: 150rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
