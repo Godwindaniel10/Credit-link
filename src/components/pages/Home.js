@@ -2,8 +2,12 @@ import React from 'react';
 import '../../App.css';
 
 export default function Home() {
+
+  {/*const handleClick = () => {
+    console.log("clicked");
+  }*/}
   return (
-    <>
+    <div className="App">
       <div className="header-container">
             <div className="box1">
                 <p className="first-p">Building a saving culture</p><br />
@@ -23,7 +27,8 @@ export default function Home() {
               <div className="npf">
                 <p><i class="far fa-thumbs-down"></i> No Prepayment Fees</p>
               </div>
-              </div>
+           </div>
+
               <div className="text-container">
               <p className="first-p">Do you need a quick loan?</p><br />
                 <h1>Credit~Link investment can help</h1><br />
@@ -37,7 +42,7 @@ export default function Home() {
       <h1>How Much You Need</h1>
     </div>
     <div className="body">
-      <a href="#">Sign up</a>
+      <a href="">Sign up</a>
     </div>
   </div>
           </div>
@@ -158,6 +163,6 @@ export default function Home() {
             <p className="powered">Powered by <span>LIVEPETAL SYSTEMS LTD</span></p>
           </div>
       </div>
-    </>
+    </div>
   );
 }
