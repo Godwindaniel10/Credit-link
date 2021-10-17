@@ -157,7 +157,43 @@ export default function Home() {
                         </div>
                   </div>
             </div>
+               {/* wcu for mobile */}
+          <div className="wcu1-mobile">
+                 
+                  <div className="rightbox">
+                    <div className="text">
+                    <div className="container1">
+
+                       <span className="num1">01</span><br />
+                       <div className="header-text-box">
+                     <p className="header">Reliability & Transparency</p>
+                      <p className="text">Our foundation is built upon the trust reposed on us by our client simply because we make everything clear and transparent.</p>
+                     </div>
+                    </div>
+                    <div className="container2">
+                    <span className="num2">02</span><br />
+                    <div className="header-text-box">
+                     <p className="header">Experienced Leadership</p>
+                      <p className="text">The company is led by directors that have demonstrated time-tested principles of financial success and breakthrough.</p>
+                     </div>
+                    </div>
+                    <div className="container3">
+                    <span className="num3">03</span><br />
+                    <div className="header-text-box">
+                     <p className="header">Operational Efficiency</p>
+                      <p className="text">Our system is completely automated to deliver best user experience for our clients and operators with high efficiency and accuracy.</p>
+                     </div>
+                    </div>
+                    </div>
+                  </div>
+            </div>
           </div>
+
+
+       
+
+         
+        
           <div className="footer">
             <p className="copyright">Copyright © 2021. Madas Investment Management Ltd.</p>
             <p className="powered">Powered by <span>LIVEPETAL SYSTEMS LTD</span></p>
