@@ -126,8 +126,8 @@ export default function SignUp() {
 
           </form>
           <div className="fpassword-submit-container">
-              <a href="" className="sign-up-submit">Sign up</a>
-              <p className="ahaa">Already have an account? <a href="">Sign in</a> </p>
+              <a href="/#" className="sign-up-submit">Sign up</a>
+              <p className="ahaa">Already have an account? <a href="/#">Sign in</a> </p>
             </div>
         </div>
       </div>

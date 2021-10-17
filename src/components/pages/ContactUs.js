@@ -45,7 +45,7 @@ Ojota New Garage, Behind Wema Bank Plc</p>
            <input type="number" name="phone-number" id="phone-number" placeholder="Phone number"/><br /><br />
            <input type="email" name="email" id="email" placeholder="Email"/><br /><br />
            <input type="text" name="message" id="message" class="message" placeholder="Message"/><br /><br /><br /><br />
-           <a href="">Submit Now</a>
+           <a href="/#">Submit Now</a>
          </form>
        </div>
        <div className="footer-contact">

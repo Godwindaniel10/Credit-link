@@ -1,16 +1,10 @@
 import React from 'react';
 import '../../App.css';
-import ReactDOM from 'react-dom';
+/*import ReactDOM from 'react-dom';*/
 
 export default function Faq() {
 
- {/*
-  function Football() {
-    const shoot = () => {
-      alert("Great Shot!");
-    }
-  }
-*/}
+
   return (
     <>
     <div className="faq-container">
@@ -62,7 +56,7 @@ export default function Faq() {
           <div className="q2">
           <h1>Do you still have questions or need more clarification about our loans, savings and investment services?
             <br/><br/><br/><br/>
-            <a href="#">Contact us</a>
+            <a href="/#">Contact us</a>
           </h1>
           </div>
         </div>
@@ -75,4 +69,3 @@ export default function Faq() {
     </>
   )
 }
-{/*ReactDOM.render(<Football />, document.getElementById('root'));*/}
