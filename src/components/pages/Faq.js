@@ -26,7 +26,7 @@ export default function Faq() {
 
           <div className="text1">
             <p className="head-text">Who is eligible for Madas Loans?</p>
-            {/*<button onClick={shoot}>Take the shot!</button>*/}
+           
             <p className="body-text" id="body-text-1">Salary earners, businessmen/women, people who can demonstrate capacity to repay their loans without tress.</p>
           </div>
           <div className="text2">

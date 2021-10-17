@@ -1324,10 +1324,13 @@ select{
 @media only screen and (max-width: 600px) {
   .header-container {
     background: linear-gradient(
-      rgba(0, 0, 0, 0.521), 
-      rgba(0, 0, 0, 0.45)
-    ), url(./images/header-img-2.jpeg);
+    rgba(0, 0, 0, 0.800), 
+    rgba(0, 0, 0, 0.800)
+  ), url(./images/header-img-2.jpeg);
+  background-position: center;
+  background-size: cover;
     padding: 0 40px ;
+    height: 100vh;
   }
   .box1 {
     height: auto;
@@ -1341,11 +1344,21 @@ select{
   .box1 .first-p {
     font-weight: 700;
     font-size: 20px;
+    color: #ffffff;
   }
   .box1 h1 {
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 2.5rem;
+    font-weight: 700;
+    /*color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke: 0.2px #fff;*/
+    color: #3ea176;
   }
+  .box1 .second-p {
+    font-size: 16.5px;
+    line-height: 25px;
+    color: rgb(235, 235, 235);
+  } 
+  
   
 
   /* main */
@@ -1376,8 +1389,8 @@ select{
     font-size: 20px;
   }
   .first-container .text-container h1 {
-    font-size: 3rem;
-    font-weight: 800;
+    font-size: 2.5rem;
+    font-weight: 700;
   }
   .first-container .box-2 .header {
     font-size: 11px;
@@ -1393,6 +1406,9 @@ select{
   }
   .first-container .box-2 .body a  {
     font-size: 18px;
+  }
+  .first-container .text-container .second-p {
+    font-size: 16.5px;
   }
 
 
@@ -1410,7 +1426,7 @@ select{
     font-size: 30px;
   }
   .offer-container .header-text .p2{
-    font-size: 17px;
+    font-size: 16.5px;
     line-height: 30px;
   }
 
@@ -1418,7 +1434,7 @@ select{
 
   /* about */
   .about-container {
-    top: 210rem;
+    top: 207rem;
     padding: 30px;
   }
   .about-container .about-sec1 {
@@ -1455,7 +1471,7 @@ select{
 
   /* why choose us */ 
   .why-choose-container {
-    top: 285rem;
+    top: 282rem;
     padding: 30px;
   }
   .why-choose-container .wcu1 {
@@ -1569,7 +1585,56 @@ select{
 }
 
   
+
+
+/* faq section mobile */ 
+.faq-container .header-intro {
+  left: 0.6rem;
+  top: 8rem;
+  font-size: 20px;
+}
+.faq-container .header-container .faq-header,
+.faq-container .header-container .faq-q 
+ {
+  font-size: 120px;
+}
+.faq-container .faq-main-container {
+  display: grid;
+  padding: 100px 30px 250px 30px;
+}
+.faq-container .faq-main-container .question1 {
+  padding: 20px;
+}
+.faq-container .faq-main-container .question2 {
+  margin-top: 4rem;
+}
+.faq-container .faq-main-container .question2 h1 {
+  font-size: 20px;
+  padding: 80px 20px;
+}
+.faq-container .faq-main-container .question2 a {
+  padding: 12px 30px;
+  font-size: 16px;
+}
+
+
+
+
+
+
+.faq-container .faq-main-container .question2 {
+  margin-left: 0;
+}
  
+
+
+
+
+
+
+
+
+
 
 
 
@@ -1586,6 +1651,21 @@ select{
   .footer .powered {
     font-size: 14px;
   }
+
+
+  /* footer */
+.footer-faq{
+  top: 115rem;
+  display: grid;
+  padding: 30px;
+  text-align: center;
+}
+.footer-faq .copyright{
+  font-size: 15px;
+}
+.footer-faq .powered{
+  font-size: 14px;
+}
 }
 
 
